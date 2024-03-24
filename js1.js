@@ -84,7 +84,7 @@ function clickByMe(){
     }else if(mb % 5 == 0){
         resultone.innerHTML = mb + "&nbsp;is divisible by 5";
     }else{
-        resultone.innerHTML = "Number you've entered is not divisible 3 or 5"
+        resultone.innerHTML = "Number you've entered is not divisible by 3 or 5"
     }return
     multipleBy.value = ""
     event.preventDefault()
