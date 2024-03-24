@@ -1,0 +1,36 @@
+#result{
+    font-size: 20px;
+    font-family: Verdana;
+    text-shadow: 5px 5px 20px #1C315E;
+    color: blue;
+    padding-top: 50px;
+}
+#odd, #Multiple{
+
+    background-color: #F8F6F4;
+}
+
+
+
+button{
+    border-style: none;
+
+}
+#resultone{
+    font-size: 20px;
+    font-family: Verdana;
+    text-shadow: 5px 5px 20px #1C315E;
+    color: blue;
+    padding-top: 50px;
+}
+
+#resultwo{
+    font-size: 20px;
+    font-family: Verdana;
+    text-shadow: 5px 5px 20px #1C315E;
+    color: blue;
+    padding-top: 50px;
+}
+
+
+
