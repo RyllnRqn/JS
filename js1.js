@@ -108,3 +108,21 @@ function findLarge(){
     document.getElementById("resultwo").innerHTML = randomArray[0] + "  is the greatest number"; return
 }
 
+function switchSection(showSection, hideSection){
+    hideSection.forEach((section) => {
+        section.classList.add("d-none")
+    })
+    showSection.classList.remove("d-none")
+}
+
+oddsec.addEventListener("click", function(event){event.preventDefault()
+switchSection(odd, [convert, Multiple, Largest])})
+
+convertsec.addEventListener("click", function(event){event.preventDefault()
+switchSection(convert, [odd, Multiple, Largest])})
+
+multiplesec.addEventListener("click", function(event){event.preventDefault()
+switchSection(Multiple, [convert, odd, Largest])})
+
+largesec.addEventListener("click", function(event){event.preventDefault()
+switchSection(Largest, [convert, Multiple, odd])})
