@@ -5,10 +5,11 @@
     color: blue;
     padding-top: 50px;
 }
-#odd, #Multiple{
+#odd, #Multiple, #Largest, #convert{
 
-    background-color: #F8F6F4;
+    background-color: #f1e8e0;
 }
+
 
 
 
